@@ -7,7 +7,7 @@ Esse endpoint é responsável por retornar a listagem de todos os games cadastra
 Nenhum
 #### Responses
 ##### OK! 200
-Caso esta resposta aconteça o usuário recebe a listagem do Games.
+Caso esta resposta aconteça o usuário recebera uma listagem com os Games.
 
 Exemplo de resposta:
 ```
@@ -40,7 +40,7 @@ Exemplo de resposta:
 }
 ```
 ##### Falha na  autenticação! 401
-Caso esta resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisilção. Motivos: Token inválido, Token expirado.
+Caso esta resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Token inválido, Token expirado.
 
 Exemplo de resposta:
 
@@ -66,7 +66,7 @@ Exemplo de resposta:
 ```
 #### Responses
 ##### OK! 200
-Caso esta reposta aconteça o usuário recebe o token JWT para conseguir acessar endpoints protegidos.
+Caso esta reposta aconteça o usuário recebera um token JWT para conseguir acessar endpoints protegidos.
 
 Exemplo de resposta:
 ```
@@ -75,7 +75,7 @@ Exemplo de resposta:
 }
 ```
 ##### Falha na  autenticação! 401
-Caso esta resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisilção. Motivos: Senha ou email incorretos.
+Caso esta resposta aconteça, significa que aconteceu alguma falha durante o processo de autenticação da requisição. Motivos: Senha ou email incorretos.
 
 Exemplo de resposta:
 
